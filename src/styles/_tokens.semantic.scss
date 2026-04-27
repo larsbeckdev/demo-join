@@ -3,6 +3,11 @@
    Role-based tokens. Use these in components (e.g. var(--color-bg-surface)).
    ============================================================================ */
 :root {
+  /* -------- Base brand colors -------- */
+  --color-base-primary: var(--brand-primary-500);
+  --color-base-secondary: var(--brand-secondary-500);
+  --color-base-tertiary: var(--brand-tertiary-500);
+
   /* -------- Color roles -------- */
   --color-bg-base: var(--neutral-0);
   --color-bg-surface: var(--neutral-0);
@@ -15,6 +20,7 @@
   --color-text-tertiary: var(--neutral-500);
   --color-text-on-primary: var(--neutral-0);
   --color-text-on-secondary: var(--neutral-0);
+  --color-text-on-tertiary: var(--neutral-0);
   --color-text-link: var(--brand-secondary-500);
   --color-text-link-hover: var(--brand-secondary-600);
 
